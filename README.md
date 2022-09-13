@@ -31,3 +31,15 @@ Sort a string of words and return a sorted string of words ingoring case.
 To run tests in terminal from project root:
 
 `python3 -m pytest -v projects/sortstrings/test_sortstrings.py`
+
+## Find All Indexes for Item (TODO)
+
+Return a list containing all indexes for search item in input list
+
+To run tests in terminal from project root:
+
+`python3 -m pytest -v projects/finditems/test_finditems.py`
+
+## Http Requests (TODO)
+
+Http requests class that returns the response
