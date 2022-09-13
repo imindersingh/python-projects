@@ -5,6 +5,9 @@ class PrimeFactors:
         Args:
             number (int): Input value to find prime factors for
 
+        Raises:
+            TypeError: If input it not int
+
         Returns:
             list: List of prime factors for input value
         """
