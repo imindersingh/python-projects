@@ -32,9 +32,10 @@ To run tests in terminal from project root:
 
 `python3 -m pytest -v projects/sortstrings/test_sortstrings.py`
 
-## Find All Indexes for Item (TODO)
+## Find All Indexes for Item
 
 Return a list containing all indexes for search item in input list
+Solution source: https://www.linkedin.com/learning/python-code-challenges/find-all-list-items
 
 To run tests in terminal from project root:
 
@@ -43,3 +44,11 @@ To run tests in terminal from project root:
 ## Http Requests (TODO)
 
 Http requests class that returns the response
+
+## Waiting Game
+
+The user has to wait for random number of seconds printed in the console.
+
+To run from project root:
+
+`python3 projects/waiting_game/waiting_game.py`
