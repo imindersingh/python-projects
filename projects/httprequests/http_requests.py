@@ -1,14 +1,17 @@
-import requests
 import json
+import requests
 
-BASE_URL = "https://api.upcitemdb.com/prod/trial/lookup"
-parameters = {"upc": "012993441012"}
 
-response = requests.get(BASE_URL, params=parameters)
-print(response.url, response.status_code)
+class HttpRequests:
+    def __init__(self, base_url, parameters):
+        self.base_url = base_url
+        self.parameters = parameters
 
-content = response.content
-info = json.loads(content)
-brand = info["items"][0]["brand"]
-title = info["items"][0]["title"]
-print(title, brand)
+    def get(self):
+        return requests.get(url=self.base_url, params=self.base_url)
+
+    def post(self, body):
+        return requests.post(url=self.base_url, params=self.parameters, data=body)
+
+    def getJsonBody(self, resp):
+        return json.load(resp)
