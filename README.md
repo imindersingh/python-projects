@@ -2,6 +2,10 @@
 
 A collection of python projects for learning and development.
 
+## Requirements
+
+Python 3.9
+
 ## Setup
 
 Install dependencies by running the following command:
@@ -52,3 +56,12 @@ The user has to wait for random number of seconds printed in the console.
 To run from project root:
 
 `python3 projects/waiting_game/waiting_game.py`
+
+
+## Api Data Generator
+
+WIP
+
+## Jenkins Scraper
+
+Jenkins API for various build data
