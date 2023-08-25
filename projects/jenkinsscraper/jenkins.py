@@ -51,7 +51,7 @@ for job in job_urls:
 
                 # Filter builds with specific description
                 if description is not None:
-                    if "Tier: dvqa, Test Suite: regression" in description:
+                    if "add description here" in description:
                         if result == "SUCCESS":
                             job_counts["pass"] += 1
                         elif result == "FAILURE":
